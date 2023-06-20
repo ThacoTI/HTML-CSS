@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: Barrio;
+    src: local(Barrio), url(fontes/idroid.otf)
+  }
+body{
+    background-color: #89D99D;
+    margin: auto;
+}
+
+header{
+
+    background-image: linear-gradient(to top, #195c2a, #44a85d);
+}
+header > h1{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+header > p{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.692);
+}
+nav >a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.726);
+    margin: 10px;
+}
+main{
+    height: 100%;
+    width: 80%;
+    background-color: aliceblue;
+    margin: auto;
+}
+main >h1{
+    font-family: Barrio;
+    font-size: 24px;
+    margin: 20px;
+    padding-top: 20px;
+    color: #195c2a;
+}
+main > p{
+    text-align: justify;
+    text-indent: 2em;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main >h3{
+    font-family: Barrio;
+    margin: 20px;
+    color: #195c2a;
+    background-image: linear-gradient(to right, #aae7ba, #c0eecc);
+    
+    
+
+}
+img{
+    width: 90%;
+}
+picture{
+    margin: 20px;
+}
+iframe{
+    width: 90%;
+    margin: 20px;
+    border: 20px solid rgb(12, 56, 6);
+    
+}
+footer{
+    margin: auto;
+    width: 75%;
+    background-color: rgb(157, 201, 153);
+    border-radius: 10px;
+    
+}
+footer > h3{
+    background-color: #1c532a;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer > p{
+    text-align: justify;
+    text-indent: 2em;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+mark{
+    color: #195c2a;
+}
+
+
