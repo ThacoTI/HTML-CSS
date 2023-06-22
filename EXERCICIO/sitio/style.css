@@ -53,16 +53,28 @@ aside h1{
     height: 30px;
     border-inline: 50px;
 }
-aside{
-   
-    background-color: #6E8C03;
-    width: 50%;
-    height: 50%;
-    display: inline-block;
-    margin-left: 50%;
+
+    
 }
 article{
     width: 45%;
     height: 50%;
     padding-bottom: 50px;
+}
+div.p1{
+    display: inline-block;
+    
+    background-color: aqua;
+    width: 400px;
+    height: 530px;
+}
+div.d1{
+    display: inline-block;
+     background-color: #6E8C03;
+     width: 300px;
+     height: 300px;
+}
+div#a{
+   
+    margin-left: 50%;
 }
