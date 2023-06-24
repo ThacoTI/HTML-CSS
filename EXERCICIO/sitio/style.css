@@ -66,14 +66,29 @@ article{
     height: 50%;
     padding-bottom: 50px;
 }
-div.p1{
+div#fora{
+    height: 150vh;
+    width: 98%;
     display: inline-block;
+    background-color: white;
     
-    background-color: aqua;
-    width: 400px;
-    height: 530px;
    
 }
+div#dentro{
+    height: 400px;
+    width: 500px;
+    background-color: blueviolet;
+
+}
+div#fora{
+    position: relative;
+}
+div#dentro{
+    position: absolute;
+    left: 60%;
+    top: 10px;
+}
+
 div.d1{
     display: inline-block;
      background-color: #6E8C03;
