@@ -8,14 +8,15 @@ body{
     
 }
 header{
-    background-image: linear-gradient(to top, #6E8C03, #465902);
+    background-image: url('img/camp-gd.png');
+    /*background-image: linear-gradient(to top, #6E8C03, #465902);*/
     padding: 20px;
-    height: 100px;
+    height: 200px;
     
 }
 header h1{
     text-align: center;
-    color: white;
+    color: #283302;
     font-size: 3em;
     font-weight: bold;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
@@ -25,19 +26,22 @@ header h1{
 }
 header p{
     text-align: center;
-    color: white;
+    color: #283302;
     font-size: 1.5em;
+}
+header > nav{
+    margin-top: 80px;
 }
 header a{
     text-decoration: none;
-    color: white;
+    color: #283302;
     font-weight: bold;
     font-size: 1.2em;
-    margin: 10px;
+    margin:    10px;
 }
 nav a:hover{
     background-color: #bfa93b2d;
-    color: #465902;
+    color: #ccd3b1;
     
 }
 img{
@@ -46,6 +50,7 @@ img{
     
 }
 main >h1{
+    text-align: center;
     font-weight: bold;
 }
 aside h1{
@@ -55,7 +60,7 @@ aside h1{
 }
 
     
-}
+
 article{
     width: 45%;
     height: 50%;
@@ -67,6 +72,7 @@ div.p1{
     background-color: aqua;
     width: 400px;
     height: 530px;
+   
 }
 div.d1{
     display: inline-block;
@@ -77,4 +83,7 @@ div.d1{
 div#a{
    
     margin-left: 50%;
+}
+div#img{
+    margin-left: 400px;
 }
