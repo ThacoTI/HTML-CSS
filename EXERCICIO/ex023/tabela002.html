@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas dinamicas</title>
+
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 9px;
+            background-color: rgba(169, 169, 169, 0.712);
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 9px;
+        }
+        thead, tfoot{
+            background-color: rgba(19, 18, 18, 0.699);
+        }
+        thead >tr >th{
+            position: sticky;
+            top: 0px;
+            background-color: rgba(19, 18, 18, 0.699);
+        }
+        tbody >tr:nth-child(2n){
+            background-color: darkgrey;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!--
+        ANOTOMIA DAS TABELAS
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBOODY
+                TR, TD, TH  
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>Total de abitantes por estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sao paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21.000.765</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">234.444.44</td>
+            </tr>
+            
+            <tr>
+                <td>Bhaia</td>
+                <td class="num">756.76.658</td>
+            </tr>
+            
+            <tr>
+                <td>salvador</td>
+                <td class="num">8656.656</td>
+            </tr>
+            <tr>
+                <td>ceara</td>
+                <td class="num">654.656.67</td>
+            </tr>
+
+            <tr>
+                <td>piaui</td>
+                <td class="num">654.656.67</td>
+            </tr>
+
+            <tr>
+                <td>maranhao</td>
+                <td class="num">654.656.67</td>
+            </tr>
+
+            <tr>
+                <td>para</td>
+                <td class="num">45.656.67</td>
+            </tr>
+
+            <tr>
+                <td>Acre</td>
+                <td class="num">654.56.67</td>
+            </tr>
+
+            <tr>
+                <td>natal</td>
+                <td class="num">64.56.67</td>
+            </tr>
+
+            <tr>
+                <td>amapa</td>
+                <td class="num">64.656.67</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de abitantes</th>
+                <td class="num"><strong>210.147.125</strong> </td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam pariatur, aliquid quae consectetur atque, laborum quaerat aliquam veritatis assumenda ipsum facere voluptatem veniam. Excepturi, quia ducimus itaque fugiat libero voluptates!</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto nesciunt quibusdam dolorem hic quidem inventore. Explicabo fugiat sed impedit ipsam architecto mollitia enim. Aut voluptatibus, iusto ducimus reiciendis magnam iste.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti numquam aspernatur distinctio possimus aperiam iure ipsam. Voluptatibus officia repudiandae quasi nobis excepturi adipisci numquam asperiores sint sit iure, repellat nisi?</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati reprehenderit architecto quae incidunt praesentium magni sapiente expedita beatae quis id alias, voluptas necessitatibus voluptatum molestiae quia tempora animi. Aliquid, voluptatum?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum explicabo aspernatur odit molestias, eaque est magni neque consectetur repellendus eos. Aperiam magnam iusto nesciunt ratione soluta velit laboriosam perspiciatis.</p>
+
+
+</body>
+</html>
