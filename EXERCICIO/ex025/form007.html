@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fromulario</title>
+</head>
+
+<body>
+  <h1>Exemplo de formulario</h1>
+  <form action="caadstro.php" method="get">
+    
+    <p>
+      <label for="iest">Estado</label>
+      <select name="estado" id="iest">
+          <option value="Ce">Ceara</option>
+          <option value="RJ">Rio de janeiro</option>
+          <option value="SP">Sao Paulo</option>
+          <option value="MG">Mina gerais</option>
+      </select>
+    </p>
+    
+    <p>
+      <label for="iprof">Profisão:</label>
+      <input type="text" name="prof" id="iprof"  list="lstprof">
+      <datalist id="lstprof">
+        <option value="ADM">Adimistração</option>
+        <option value="CONt">Contador</option>
+        <option value="DEV">Desenvolvedor</option>
+      </datalist>
+    </p>
+    
+    <p>
+      <label for="imsg">Mensagen</label> <br>
+      <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+
+</body>
+
+</html>
