@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: chocolate;
+    
+    
+}
+body {
+    font-size: 2em;
+    text-align: center;
+}
+html{
+    
+    height: 100vh;
+}
+main{
+   
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgba(74, 94, 209, 0.61);
+    text-align: center;
+    font-size: 3em;
+}
+div#tel{ display: block;}
+div#tab{ display: none;}
+div#not{ display: none;}
+div#tel{ display: none;}
+

@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+        background-color: cornflowerblue;
+    }
+    div#cel{ display: none;}
+    div#tab{ display: block;}
+    div#not{ display: none;}
+    div#tele{ display: none;}
+}
+
+@media  screen and (min-width: 992px) and (max-width: 1200px) {
+    main{
+        background-color: blueviolet;
+    }
+    div#cel { display: none;}
+    div#tab { display: none;}
+    div#not { display: block;}
+    div#tel { display: none;}
+}
+
+@media  screen and (min-width: 1200px){
+    main{
+        background-color: indigo;
+    }
+    div#cel { display: none;}
+    div#tab { display: none;}
+    div#not { display: none;}
+    div#tel { display: block;}
+}
